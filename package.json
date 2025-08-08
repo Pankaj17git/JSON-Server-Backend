@@ -1,9 +1,10 @@
 {
   "name": "json-server-backend",
   "version": "1.0.0",
-  "description": "Mock API using JSON Server",
+  "description": "Mock API using JSON Server with custom entry",
+  "main": "index.js",
   "scripts": {
-    "start": "json-server --watch user.json --port 4001"
+    "start": "node index.js"
   },
   "dependencies": {
     "json-server": "^0.17.3"
